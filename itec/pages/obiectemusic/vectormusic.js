@@ -15,36 +15,36 @@ const vectormusic = [
     {
         id: 2,
         name: "Pick-up",
-        image: "https://domno-vintage.com/cdn/shop/files/8Ball_09c2868a-48c0-41fc-b5d3-ac463549d9f2.jpg?v=1737629949&width=980",
+        image: "https://s13emagst.akamaized.net/products/65493/65492281/images/res_b8a2bce99bdece9b82a302c652b60479.jpg?width=720&height=720&hash=C2DB2F12EE13005F690056A5A486920C",
         price: "€ 87.99",
         vt:[
-            "https://domno-vintage.com/cdn/shop/files/8Ball-1.jpg?v=1737720210&width=980",
-            "https://domno-vintage.com/cdn/shop/files/8Ball-2.jpg?v=1737720209&width=5000",
-            "https://domno-vintage.com/cdn/shop/files/8Ball-4.jpg?v=1737720209&width=980"
+            "https://s13emagst.akamaized.net/products/28143/28142060/images/res_84b51b2d83243e9ff67310c5e709810b.jpg?width=720&height=720&hash=8F07D70723C458F9E4E269ED5622D4A0",
+            "https://s13emagst.akamaized.net/products/65431/65430433/images/res_13a97f5e5268839e4200faf78a31eedb.jpg?width=720&height=720&hash=9F364766B7D9CAEB18448BC9E08566AD",
+            "https://muzikercdn.com/uploads/products/3733/373335/main_988d09c2.jpg"
         ],
         description: "Vintage Ring Watch Channeling the elegance of the past, this vintage-inspired ring watch features a minimalist design and a comfortable leather strap. With its delicate details and reliable movement, it's a perfect accessory for any occasion.",
     },
     {
         id: 3,
         name: "Pick-up",
-        image: "https://domno-vintage.com/cdn/shop/files/Link_f105587e-cfc9-4816-9b7b-3c6e70d1e045.jpg?v=1737630360&width=980",
+        image: "https://s13emagst.akamaized.net/products/68323/68322060/images/res_38695ca7abc6ede73cf011dfe9be4134.png?width=720&height=720&hash=5A7937F95865645A52BFC05B49A8CD82",
         price: "€ 39.99",
         vt:[
-            "https://domno-vintage.com/cdn/shop/files/Link-1.jpg?v=1737721754&width=5000",
-            "https://domno-vintage.com/cdn/shop/files/AM19662compresed.jpg?v=1737721754&width=5000",
-            "https://domno-vintage.com/cdn/shop/files/LinkG.jpg?v=1737721754&width=980"
+            "https://s13emagst.akamaized.net/products/68323/68322060/images/res_3e4f91fef559b544f32bcefa7cea7fac.jpg?width=720&height=720&hash=D3B4A0FFDE4636B43D611A7741D5A330",
+            "https://s13emagst.akamaized.net/products/68323/68322060/images/res_b13052239189d9b506efb6b80f1d2892.jpg?width=720&height=720&hash=A127E74C0E09CCCCB1EB7FE3ACD70DD3",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3kQM9oKH3UvbrByHl58rLYG_aKmCk_YyAPQ&s"
         ],
         description: "Classic Ring Watch A true symbol of sophistication, this classic ring watch boasts a polished silver case and a subtle, vintage dial. The adjustable leather band ensures comfort while offering a timeless look that never goes out of style.",
     },
     {
         id: 4,
         name: "Pick-up",
-        image: "https://domno-vintage.com/cdn/shop/files/Shroom_e62df539-c828-448a-983d-c17f8b7e20c8.jpg?v=1737630541&width=5000",
+        image: "https://s13emagst.akamaized.net/products/73415/73414635/images/res_c6ca61f0648d8d5b59ab15e3d73e8882.jpg?width=720&height=720&hash=D9024CCF97957E19D6DEB5DFCC4A3151",
         price: "€ 29.99",
         vt:[
-            "https://domno-vintage.com/cdn/shop/files/Shroom-2.jpg?v=1737722169&width=980",
-            "https://domno-vintage.com/cdn/shop/files/14-01-2025-2.jpg?v=1737722169&width=5000",
-            "https://domno-vintage.com/cdn/shop/files/Shroom_44a83caa-f51f-4204-83e9-0cdcbc09c706.jpg?v=1737722169&width=980"
+            "https://s13emagst.akamaized.net/products/73415/73414635/images/res_cb99b662643f0625485069c4fc2f7dbc.jpg?width=720&height=720&hash=F96E7E972029520DED4494E33EC4CEE5",
+            "https://s13emagst.akamaized.net/products/73415/73414635/images/res_be636d44aa55fcf8643bad593771c4e6.jpg?width=720&height=720&hash=2AF0AA9826B1A5B4A7903E5FEAB6F197",
+            "https://www.rockshop.ro/images/product/741-queen-themiracle-viniljpg.jpg"
         ],
         description: "Retro-Futuristic Ring Watch Combining retro charm with a futuristic twist, this ring watch is designed for those who appreciate unique style. Its bold face and metallic finish make it a standout piece, ideal for both casual and formal occasions.",
     },
