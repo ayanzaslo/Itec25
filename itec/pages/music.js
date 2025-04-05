@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 
-export default function Clothing() {
+export default function Music() {
     const [haine, setHaine] = useState(vectorhaine);
 
     function filterProduts(type) {
