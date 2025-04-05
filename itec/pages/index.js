@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-black lg:text-xl text-l font-serif">
               Simte energia autentică a anilor '80 și '90 cu un mix perfect de muzică legendară și modă retro.
             </p>
-            <Link href="/about" className="bg-black text-white lg:text-l text-l font-semibold  hover:bg-white hover:text-black lg:p-4 p-3 rounded-lg">
+            <Link href="/clothing" className="bg-black text-white lg:text-l text-l font-semibold  hover:bg-white hover:text-black lg:p-4 p-3 rounded-lg">
               Shop now
             </Link>
           </div>

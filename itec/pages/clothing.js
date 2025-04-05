@@ -9,7 +9,7 @@ export default function Clothing() {
         <h1 className="lg:text-4xl text-2xl font-bold ml-2 mb-5">Menu</h1>
         <Link href="/clothing/tshirts"className="lg:text-xl text-l p-3 font-bold hover:text-[#795458] border-b-2 border-black"> T-Shirts </Link>
         <Link href="/clothing/hoodies"  className="lg:text-xl text-l p-3 font-bold hover:text-[#795458] border-b-2 border-black" >Hoodies</Link>
-        <Link href="/clothing/pants"className="lg:text-xl text-l p-3 font-bold hover:text-[#795458] border-b-2 border-black" >  Pants </Link>
+        <Link href="/clothing/pants"className="lg:text-xl text-l p-3 font-bold hover:text-[#795458] border-b-2 border-black" > Trousers  </Link>
       </div>
 
       <div className="flex flex-wrap  p-5 lg:ml-[20%] w-full">
