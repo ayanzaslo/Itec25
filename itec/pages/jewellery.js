@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 
-export default function Clothing() {
+export default function Jewellery() {
     const [haine, setHaine] = useState(vectorhaine);
 
     function filterProduts(type) {

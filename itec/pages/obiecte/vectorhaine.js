@@ -118,7 +118,7 @@ const vectorhaine = [
             "https://domno-vintage.com/cdn/shop/files/296_bdf80e6d-217f-4a4a-8fff-7cd38967c666.jpg?v=1731336846&width=980",
             "https://domno-vintage.com/cdn/shop/files/297_4c9436d8-d477-48c1-88bf-36cc2c75107e.jpg?v=1731336846&width=980"
         ],
-        description: "A classic t-shirt with a vintage design, perfect for casual wear. Made from 100% cotton for comfort and durability.",
+        description: "A perfect pair of distressed jeans that capture the essence of the '90s. With a relaxed fit and worn-in detailing, these jeans are designed for those who appreciate casual comfort and timeless style.",
     },
     {
         id: 11,
