@@ -1,5 +1,16 @@
 import Link from "next/link";
 import vectorhaine from "./obiecte/vectorhaine";
+import { useState } from "react";
+
+const [selectedTshirt, setSelectedTshirt] = useState(null);
+const [selectedHoodie, setSelectedHoodie] = useState(null);
+const [selectedPants, setSelectedPants] = useState(null);
+
+const tricouri = [...new Set(vectorhaine.map(item => item.name))];
+const hoodies = [...new Set(vectorhaine.map(item => item.name))];
+const pantaloni = [...new Set(vectorhaine.map(item => item.name))];
+
+
 
 export default function Clothing() {
   return (
