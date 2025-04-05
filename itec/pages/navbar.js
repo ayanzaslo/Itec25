@@ -15,7 +15,7 @@ export default function Navbar() {
 
               </div>
 
-<div> <h2 className='text-3xl text-center font-bold text-white'>RetroVibes</h2></div>
+<div> <h2 className='text-3xl text-center font-bold text-white'>CultureDrop</h2></div>
 
               <div className='flex items-center justify-center gap-10'>
               <Link href="/about" className="font-mono text-white hover:text-[#795458] text-xl hover:underline decoration-3">Music</Link>
