@@ -1,7 +1,7 @@
 import Link from "next/link";
 import vectorhaine from "./obiecte/vectorhaine";
 import { useState } from "react";
-
+import Footer from "./footer";
 
 
 export default function Clothing() {
@@ -16,6 +16,7 @@ export default function Clothing() {
 
 
     return (
+      <>
     <div className="lg:flex lg:flex-row flex-col p-5 space-x-5 mt-3">
 
       <div className="flex flex-col gap-5 bg-gray-300 p-10 rounded-2xl shadow-lg lg:w-[20%] w-[100%] mb-10 lg:fixed top-36 left-5 z-10">
@@ -31,7 +32,7 @@ export default function Clothing() {
 
     <div className="flex flex-col items-start mb-10 w-full sm:w-1/2 xl:w-1/4 p-4 ">
         <Link href={`/obiecte/${item.id}`} passHref>
-        <img src={item.image} className="w-[100%] rounded-2xl hover:scale-11A0" /></Link>
+        <img src={item.image} className="w-[100%] rounded-2xl hover:scale-110" /></Link>
       <h2 className="text-2xl font-bold font-serif mt-5 mb-1">{item.name}</h2>
       <p className="text-xl mt-1 font-mono">{item.price}</p>
     </div>
@@ -39,5 +40,7 @@ export default function Clothing() {
 </div>
 
     </div>
-  );
+
+    <Footer />
+  </>);
 }

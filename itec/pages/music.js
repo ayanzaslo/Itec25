@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import vectormusic from "./obiectemusic/vectormusic";
+import Footer from "./footer";
 
 
 
@@ -16,13 +17,13 @@ export default function Music() {
 
 
     return (
+      <>
     <div className="lg:flex lg:flex-row flex-col p-5 space-x-5 mt-3">
 
       <div className="flex flex-col gap-5 bg-gray-300 p-10 rounded-2xl shadow-lg lg:w-[20%] w-[100%] mb-10 lg:fixed top-36 left-5 z-10">
         <h1 className="lg:text-4xl text-2xl font-extrabold ml-2 mb-5 dark:text-black">Menu</h1>
         <button className="lg:text-xl text-l p-3 font-bold hover:text-white border-b-2 text-start border-black cursor-pointer  dark:hover:text-black dark:text-black" onClick={()=> filterProduts("Pick-up")}>Pick-up</button>
-        <button className="lg:text-xl text-l p-3 font-bold hover:text-white border-b-2 text-start border-black cursor-pointer dark:hover:text-black dark:text-black" onClick={()=> filterProduts("Hoodies")}>Hoodies</button>
-        <button className="lg:text-xl text-l p-3 font-bold hover:text-white border-b-2 text-start border-black cursor-pointer dark:hover:text-black dark:text-black" onClick={()=> filterProduts("Trousers")}>Trousers</button>
+        <button className="lg:text-xl text-l p-3 font-bold hover:text-white border-b-2 text-start border-black cursor-pointer dark:hover:text-black dark:text-black" onClick={()=> filterProduts("CDs")}>CDs</button>
 
       </div>
 
@@ -39,5 +40,7 @@ export default function Music() {
 </div>
 
     </div>
-  );
+
+    <Footer/>
+    </> );
 }

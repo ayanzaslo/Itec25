@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import vectorMistery from "./mistery/vectormistery";
+import Footer from "./footer";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center lg:flex-row flex-col lg:gap-20 gap-10 mt-5  p-2">
+      <div className="flex flex-wrap justify-center items-center lg:flex-row flex-col lg:gap-20 gap-10 mt-10  p-2">
         {vectorMistery.map((e) => (
             <Link href={`/mistery/${e.id}`} passHref className="hover:scale-105 transition-transform duration-300 ease-in-out" key={e.id}>
               <img src={e.img} className="rounded-t-2xl" width={800} height={600} />
@@ -28,6 +29,7 @@ export default function Home() {
          
         ))}
       </div>
+      <Footer />
     </>
   );
 }

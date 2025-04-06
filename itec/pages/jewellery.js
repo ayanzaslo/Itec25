@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { useState } from "react";
 import vectoraccesorii from "./accesorii/vectoraccesorii";
-
+import Footer from "./footer";
 
 
 export default function Jewellery() {
+
     const [accesorii, setAccesorii] = useState(vectoraccesorii);
 
     function filterProduts(type) {
@@ -16,6 +17,7 @@ export default function Jewellery() {
 
 
     return (
+      <>
     <div className="lg:flex lg:flex-row flex-col p-5 space-x-5 mt-3">
 
       <div className="flex flex-col gap-5 bg-gray-300 p-10 rounded-2xl shadow-lg lg:w-[20%] w-[100%] mb-10 lg:fixed top-36 left-5 z-10">
@@ -36,7 +38,9 @@ export default function Jewellery() {
     </div>
   ))}
 </div>
-
     </div>
-  );
+    
+    
+  <Footer/>
+  </>);
 }
