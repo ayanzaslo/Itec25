@@ -10,14 +10,7 @@ export default function Navbar() {
 
                 <div className='flex items-center justify-center gap-10'>
               <Link href="/" className="font-serif text-white dark:text-black hover:text-gray-400 text-xl hover:scale-110">Home</Link>
-
-              <Link
-      href="/clothing"
-      className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-    >
-      Go to some page
-    </Link>
-              {/* <Link href="/clothing" className="font-serif text-white  dark:text-black hover:text-gray-400 text-xl hover:scale-110">Clothing</Link> */}
+              <Link href="/clothing" className="font-serif text-white  dark:text-black hover:text-gray-400 text-xl hover:scale-110">Clothing</Link>
               <Link href="/jewellery" className="font-serif text-white  dark:text-black hover:text-gray-400 text-xl hover:scale-110">Jewellery</Link>
 
               </div>
@@ -27,6 +20,9 @@ export default function Navbar() {
               <div className='flex items-center justify-center gap-10 '>
               <Link href="/music" className="font-serif text-white hover:text-gray-400 text-xl hover:scale-110  dark:text-black">Music</Link>
               <Link href="/contact" className="font-serif text-white  hover:text-gray-400 text-xl hover:scale-110   dark:text-black">Contact</Link>
+             <Link href="cumparaturi"><img src="/cos.svg" alt="Cos" width={30} className=" cursor-pointer dark:invert" /></Link> 
+
+
               </div>
             </nav>
     

@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Footer() {
     return (
-      <footer className="bg-black text-white py-10 mt-16 ">
+      <footer className="bg-black text-white py-10 mt-16 dark:bg-white dark:text-black">
         <div className="max-w-screen-xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Quick Links Section */}
@@ -28,7 +28,7 @@ export default function Footer() {
               <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
               <div className="flex justify-center md:justify-start flex-col gap-y-3">
 
-                <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white font-serif text-2xl">Instagram</Link>             
+                <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white   font-serif text-2xl">Instagram</Link>             
               
                 <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white font-serif text-2xl">Facebook</Link>             
 

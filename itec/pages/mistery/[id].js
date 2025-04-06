@@ -85,9 +85,9 @@ export default function MisteriId() {
     <div>
         <h1 className='text-3xl mt-12 mb-8'>You have the option to choose</h1>
         <div className='flex gap-5'>
-        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type1}>type 1</button>
-        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type2}>type 2</button>
-        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type3}>type 3</button>
+        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type1}>Box 1</button>
+        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type2}> Box 2</button>
+        <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type3}> Box 3</button>
         </div>
         <p className='text-3xl font-serif mt-10'>Price:{mistery.price}</p>
         <button className='bg-black lg:w-2xl w-40 text-xl p-3 rounded-lg font-serif cursor-pointer text-white border-2 hover:border-white hover:bg-gray-700 mt-10'><Link href="/about">Buy</Link></button>
