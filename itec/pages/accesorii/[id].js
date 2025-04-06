@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
 import vectoraccesorii from './vectoraccesorii';
+import Footer from '../footer';
 
 export default function AccesoriiId() {
     const router = useRouter();
@@ -75,10 +76,10 @@ export default function AccesoriiId() {
 </div>
 
 
-<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] '>
+<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] lg:mb-0 mb-[100%] '>
     <h1 className='text-4xl mb-14 font-extrabold'>{accesorii.name}</h1>
     <p className='text-xl font-serif'>{accesorii.description}</p>
-    <div>
+    <div >
         <h1 className='text-3xl mt-12 mb-8'>You have the option to choose</h1>
         <div className='flex gap-5'>
         <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type1}>type 1</button>
@@ -86,11 +87,13 @@ export default function AccesoriiId() {
         <button className='cursor-pointer bg-black text-xl p-3 rounded-lg font-serif text-white border-2 hover:border-white hover:bg-gray-700' onClick={type3}>type 3</button>
         </div>
         <p className='text-3xl font-serif mt-10'>Price:{accesorii.price}</p>
-        <button className='bg-black lg:w-2xl w-40 text-xl p-3 rounded-lg font-serif cursor-pointer text-white border-2 hover:border-white hover:bg-gray-700 mt-10'><Link href="/about">Buy</Link></button>
+        <button className='bg-black lg:w-2xl w-40 text-xl p-3 rounded-lg font-serif cursor-pointer text-white border-2 hover:border-white hover:bg-gray-700 mt-10 mb-56'><Link href="/about">Buy</Link></button>
     </div>
     </div>
 
 </div>
+
+<Footer/>
 
 </>);
 }

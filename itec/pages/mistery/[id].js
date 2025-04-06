@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import vectorMistery from './vectormistery';
 import { useState } from 'react';
+import Footer from '../footer';
 
 export default function MisteriId() {
     const router = useRouter();
@@ -65,7 +66,7 @@ export default function MisteriId() {
             
  <div className="flex justify-center items-center relative p-5">
   <div className="relative">
-    <img src={mistery.ob[currentIndex]} className="lg:h-[800px] h-[450px] lg:w-[750px] w-[380px]"/>
+    <img src={mistery.ob[currentIndex]} className="lg:h-[800px] h-[450px] lg:w-[750px] w-[380px] "/>
     
     <button onClick={inapoi} className="absolute left-0 top-1/2 transform -translate-y-1/2 cursor-pointer">
       <img  src="/left.png"    className="lg:w-12  lg:p-2 p-1 rounded-full hover:scale-150 w-6 filter invert"   />
@@ -78,7 +79,7 @@ export default function MisteriId() {
 </div>
 
 
-<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] '>
+<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] lg:mb-0 mb-[100%] '>
     <h1 className='text-4xl mb-14 font-extrabold'>{mistery.name}</h1>
     <p className='text-xl font-serif'>{mistery.description}</p>
     <div>
@@ -94,6 +95,7 @@ export default function MisteriId() {
     </div>
 
 </div>
+<Footer/>
 
 </>);
 }

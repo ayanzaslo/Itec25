@@ -2,6 +2,8 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
 import vectorhaine from './vectorhaine';
+import Footer from '../footer';
+
 
 export default function VectorId() {
     const router = useRouter();
@@ -75,7 +77,7 @@ export default function VectorId() {
 </div>
 
 
-<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] '>
+<div className=' lg:h-[800px] h-[450px] lg:w-[750px] w-[330px] lg:mb-0 mb-[100%] '>
     <h1 className='text-4xl mb-14 font-extrabold'>{obiect.name}</h1>
     <p className='text-xl font-serif'>{obiect.description}</p>
     <div>
@@ -91,6 +93,8 @@ export default function VectorId() {
     </div>
 
 </div>
+
+<Footer/>
 
 </>);
 }

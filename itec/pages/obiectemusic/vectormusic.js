@@ -10,7 +10,7 @@ const vectormusic = [
             "https://s13emagst.akamaized.net/products/40539/40538618/images/res_a7e3f92c4be6d089c9e83d498c312ee8.jpg?width=720&height=720&hash=EFD9CF65D4C99963FAB5C00CDEC72E71",
             "https://muzikercdn.com/uploads/products/4315/431529/7a021b14.jpg"
         ],
-        description: "The Retro Vinyl Pick-Up A perfect blend of vintage charm and modern sound. Featuring a classic design with a sturdy turntable, this pick-up delivers smooth, rich audio quality. Included with the pick-up is a special vinyl from the legendary band Queen, adding a touch of nostalgia and musical brilliance to your collection. Ideal for audiophiles and Queen fans who appreciate timeless tunes with a modern twist.",
+        description: "The Retro Vinyl Pick-Up A perfect blend of vintage charm and modern sound. Featuring a classic design with a sturdy turntable, this pick-up delivers smooth, rich audio quality. Included with the pick-up is a special vinyl from the legendary band Queen.",
     },
 
     {
@@ -51,7 +51,7 @@ const vectormusic = [
             "https://s13emagst.akamaized.net/products/68323/68322060/images/res_b13052239189d9b506efb6b80f1d2892.jpg?width=720&height=720&hash=A127E74C0E09CCCCB1EB7FE3ACD70DD3",
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3kQM9oKH3UvbrByHl58rLYG_aKmCk_YyAPQ&s"
         ],
-        description: "Bring the golden era of music into your home with The Vintage Vibe Record Player. This beautifully designed pick-up features a robust wooden casing and a high-fidelity turntable, delivering pristine sound quality. To elevate your listening experience, each turntable comes with a limited edition Queen vinyl, making it the perfect addition to any collection. Ideal for audiophiles and Queen fans who cherish both the visual and auditory aspects of music.",
+        description: "Bring the golden era of music into your home with The Vintage Vibe Record Player. This beautifully designed pick-up features a robust wooden casing and a high-fidelity turntable, delivering pristine sound quality. To elevate your listening experience, each turntable comes with a limited edition Queen vinyl.",
     },
  
     {
@@ -77,7 +77,7 @@ const vectormusic = [
             "https://s13emagst.akamaized.net/products/65431/65430433/images/res_13a97f5e5268839e4200faf78a31eedb.jpg?width=720&height=720&hash=9F364766B7D9CAEB18448BC9E08566AD",
             "https://muzikercdn.com/uploads/products/3733/373335/main_988d09c2.jpg"
         ],
-        description: "Step back in time with The Classic Groove Turntable, offering a fusion of retro style and modern sound engineering. Crafted with precision, this turntable features a high-quality platter and a refined tonearm for optimal audio reproduction. As a special gift, it includes a vinyl record by the legendary Queen, perfect for those who appreciate both vintage aesthetics and iconic music. A must-have for vinyl collectors and Queen enthusiasts looking to enjoy their favorite hits with unmatched clarity.",
+        description: "Step back in time with The Classic Groove Turntable, offering a fusion of retro style and modern sound engineering. Crafted with precision, this turntable features a high-quality platter and a refined tonearm for optimal audio reproduction.",
     },
 
    
@@ -104,7 +104,7 @@ const vectormusic = [
             "https://s13emagst.akamaized.net/products/73415/73414635/images/res_be636d44aa55fcf8643bad593771c4e6.jpg?width=720&height=720&hash=2AF0AA9826B1A5B4A7903E5FEAB6F197",
             "https://www.rockshop.ro/images/product/741-queen-themiracle-viniljpg.jpg"
         ],
-        description: "The Retro Harmony Turntable combines nostalgic elegance with cutting-edge audio technology. With its smooth rotating platter and durable construction, it delivers a rich, warm sound perfect for any vinyl lover. Each unit comes with a Queen vinyl as a complimentary gift, letting you enjoy classic hits like never before. Perfect for collectors and Queen fans who want to experience the magic of vinyl in the most authentic way possible.",
+        description: "The Retro Harmony Turntable combines nostalgic elegance with cutting-edge audio technology. With its smooth rotating platter and durable construction, it delivers a rich, warm sound perfect for any vinyl lover. Each unit comes with a Queen vinyl. ",
     },
   
 ]
